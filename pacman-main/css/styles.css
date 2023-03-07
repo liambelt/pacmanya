@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../assets/fondito.jpg);
+    color: yellow;
+    font-family: 'Ultra', serif;
+}
+
+.fondo {
+    background-image: url(../assets/29653.png);
+    background-size: 90%;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+.fondo2 {
+    background-image: url(../assets/paaaac.png);
+    background-size: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+.pacmanmotion {
+    position: relative;
+    animation: pacman 15s infinite;
+
+}
+
+@keyframes pacman {
+    0%          {top: 230px; left: 0px; rotate: 0deg;}
+    10%          {top: 230px; left: 300px; rotate: 0deg;}
+    20%          {top: 139px; left: 300px; rotate: 0deg;}
+    30%          {top: 139px; left: 455px; rotate: 0deg;}
+    40%          {top: 330px; left: 455px; rotate: 0deg;}
+  
+    
+
+
+  }
+
+.centrar {
+    display: flex !important;
+    justify-content: center !important;
+}
+.pequeño{
+    color: black;
+}
